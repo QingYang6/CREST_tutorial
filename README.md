@@ -14,5 +14,5 @@ Upload to WeMET, on development...
 In WeMET, on development...
 
 ### CREST manual
-[`CREST v3`](./manual/CREST%20User%20Manual%20v3.pdf)
-[`CREST v2.1.3`](./CREST%20User%20Manual%20v2.1.3.pdf)
+[`CREST v3`](./manual/CREST_User_Manual_v3.pdf)
+[`CREST v2.1.3`](./manual/CREST_User_Manual_v2_1_3.pdf)
