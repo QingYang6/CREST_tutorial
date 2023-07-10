@@ -8,6 +8,7 @@ To prepare the necessary files for the project, follow the steps outlined in the
 ## Lesson 2: Set up new project
 
 Upload to WeMET, on development...
+
 [`.prject file`](./control_file_template/project_file.md)
 
 ## Lesson 3: Run CREST and calibration
