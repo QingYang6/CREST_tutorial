@@ -13,3 +13,6 @@ Upload to WeMET, on development...
 
 In WeMET, on development...
 
+### CREST manual
+[`CREST v3`](./manual/CREST User Manual v3)
+[`CREST v2.1.3`](./CREST User Manual v2.1.3.pdf)
