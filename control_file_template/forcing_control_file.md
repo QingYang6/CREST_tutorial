@@ -44,6 +44,8 @@ SW_ULim		=	1e10	# physical upper limit
 SW_LLim		=	0	# physical lower limit
 SWPathInt	=	"/g/model/hydro/demo/CREST/demo_project/forcing/SW/sw."
 ###############################################################################
+## longwave radiation (W/m^2)
+###############################################################################
 LWFormat	=	.tif
 LWDateFormat	=	ERA5_yyyy-mm-dd_HHMMSS
 LWDateConv	=	End
