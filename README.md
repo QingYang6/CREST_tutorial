@@ -13,6 +13,8 @@ Upload to WeMET, on development...
 
 [`forcing control file`](./control_file_template/forcing_control_file.md)
 
+[`parameters file`](./control_file_template/parameters_file.md)
+
 ## Lesson 3: Run CREST and calibration
 
 In WeMET, on development...
