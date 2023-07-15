@@ -1,11 +1,15 @@
 # CREST tutorial
 Tutorial for CREST version 3.0, including the following lessons:
 
-## Lesson 1: Files preparation
+## Lesson 1: Introduction to CREST
+
+[`Introduction`](./CREST_Introduction.pdf)
+
+## Lesson 2: Files preparation
 
 To prepare the necessary files for the project, follow the steps outlined in the [`Files_prepare.ipynb`](./Files_prepare.ipynb) notebook.
 
-## Lesson 2: Set up new project
+## Lesson 3: Set up new project
 
 Upload to WeMET, on development...
 
@@ -15,10 +19,9 @@ Upload to WeMET, on development...
 
 [`parameters file`](./control_file_template/parameters_file.md)
 
-## Lesson 3: Run CREST and calibration
+## Lesson 4: Run CREST and calibration
 
 In WeMET, on development...
-
 
 ### CREST manual
 [`CREST v3`](./manual/CREST_User_Manual_v3.pdf)
