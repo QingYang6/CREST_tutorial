@@ -5,9 +5,13 @@ Tutorial for CREST version 3.0, including the following lessons:
 
 [`Introduction`](./CREST_Introduction.pdf)
 
+CREST flood warning on NCM:
+[`CREST flood warning`](http://weathermodels.ncm.gov.sa/ffg.php?model=CREST&variable=quantile)
+
 ## Lesson 2: Files preparation
 
-To prepare the necessary files for the project, follow the steps outlined in the [`Files_prepare.ipynb`](./Files_prepare.ipynb) notebook.
+To prepare the necessary files for the project, follow the steps outlined in the notebook.
+[`Files_prepare.ipynb`](./Files_prepare.ipynb)
 
 ## Lesson 3: Set up new project
 
