@@ -17,7 +17,9 @@ To prepare the necessary files for CREST, follow the steps outlined in the noteb
 
 ## Lesson 3: Set up new project
 
-Upload to WeMET, on development...
+Upload the input files to WeMET, and set up a new project.
+
+Control files for the CREST project:
 
 [`.prject file`](./control_file_template/project_file.md)
 
