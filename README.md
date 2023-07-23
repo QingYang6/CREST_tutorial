@@ -2,7 +2,7 @@
 
 Instructor: Qing Yang, qing.2.yang@uconn.edu
 
-Tutorial for CREST version 3.0, including the following lessons:
+Tutorial for CREST version 3.0, focusing on hydrologic modeling operation, including the following lessons:
 
 ## Lesson 1: Introduction to CREST
 
