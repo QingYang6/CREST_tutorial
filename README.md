@@ -30,7 +30,9 @@ Control files for the CREST project:
 
 [`parameters file`](./control_file_template/parameters_file.md)
 
-['InitialConditions file'](./control_file_template/InitialConditions_file.md)
+[`InitialConditions file`](./control_file_template/InitialConditions_file.md)
+
+[`calibrations file`](./control_file_template/calibrations_file.md)
 
 ## Lesson 4: Run CREST and calibration
 
