@@ -47,7 +47,7 @@ DEMExt		=	""       # external DEM file name
 FDRExt		=	""  # external FDR file name
 FACExt		=	""  # external FAC file name
 streamExt	=	""  # external stream file name
-BasicPathInt	=	"/g/model/hydro/demo/CREST/demo_project/basic/" #"/shared/manoslab/CT_RT_Fore/substations/01/" # directory of the internal geographic files
+BasicPathInt	=	"/g/model/hydro/demo/CREST/demo_project/basic/" # directory of the basic folder
 ###############################################################################
 ParamFile	=	"/g/model/hydro/demo/CREST/demo_project/param/Parameters_hourly_naugatuck_opt.txt" # Soil and routing parameter file
 ###############################################################################

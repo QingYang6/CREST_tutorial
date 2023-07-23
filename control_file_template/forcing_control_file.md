@@ -132,4 +132,39 @@ LAI_LLim	=       0     # physical lower limit
 LAIPathInt	=	"/g/model/hydro/demo/CREST/demo_project/forcing/LAI/lai."
 </pre>
 
+- *DateConv
+
+Date convention, specify the time range representation for each forcing variable. In the case of ERA5, it should be End.
+
+- *DateFormat
+
+Format of the main string body of the specify forcing file, should correspond to the DateInterval.
+
+- *DateInterval
+
+The instance of one time step correspond to DateFormat, also should consist with timestep setting in the .project file.
+
+- *Format
+
+Ext of the input forcing file. Use the final Ext if multiple '.' contains in the file name.
+
+- *PathExt
+
+Path to the specify forcing variable files, including any prefix strings before the patter of LAIDateInterval.
+
+- *Band
+
+Band number of the anticipated forcing variable, from the file.
+
+- *_LT
+
+Multiplier, use when unit adjustment is needed.
+
+- *_ULim, *LLim
+
+Upper limit and lower limit of the vairable values, in case of outlier.
+
+- *PathInt
+
+Path and prefix strings to store the imported forcing variable, default format is .mat.
 

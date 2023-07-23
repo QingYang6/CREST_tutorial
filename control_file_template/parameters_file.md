@@ -35,11 +35,11 @@ EvapSurfWater			=			Yes
 ################################################################################
 # saturated soil conductivity (mm/h)
 ################################################################################
-KsatType		=			Uniform#
+KsatType		=			Distributed #
 nLayers_Ksat			=			6
 Ksat_depth_1			=			0.05 #(m)
 Ksat_1						=		KSAT_sd1.tif
-Ksat_depth_2			=			0.1  #(m)
+Ksat_depth_2			=			0.1 #(m)
 Ksat_2			=			KSAT_sd2.tif
 Ksat_depth_3			=			0.15 #(m)
 Ksat_3			=			KSAT_sd3.tif
@@ -52,11 +52,11 @@ Ksat_6			=			KSAT_sd6.tif
 ################################################################################
 # field capacity (%v)
 ################################################################################
-FCType			=			Uniform	#
+FCType			=			Distributed #
 nLayers_FC		=			6
 FC_depth_1			=			0.05 #(m)
 FC_1						=		FC_sd1.tif
-FC_depth_2			=			0.1  #(m)
+FC_depth_2			=			0.1 #(m)
 FC_2			=			FC_sd2.tif
 FC_depth_3			=			0.15 #(m)
 FC_3			=			FC_sd3.tif
@@ -69,11 +69,11 @@ FC_6			=			FC_sd6.tif
 #################################################################################
 # Wilting point soil moisture (%)
 #################################################################################	
-WwpType			=			Uniform	#
+WwpType			=			Distributed #
 nLayers_Wwp		=			6
 Wwp_depth_1			=			0.05 #(m)
 Wwp_1						=		Wwp_sd1.tif
-Wwp_depth_2			=			0.1  #(m)
+Wwp_depth_2			=			0.1 #(m)
 Wwp_2			=			Wwp_sd2.tif
 Wwp_depth_3			=			0.15 #(m)
 Wwp_3			=			Wwp_sd3.tif
@@ -86,11 +86,11 @@ Wwp_6			=			Wwp_sd6.tif
 ################################################################################
 # Saturated(maximal) soil moisture (%)
 ################################################################################	
-SatType				=		Uniform	#
+SatType				=		Distributed #
 nLayers_Sat			=			6
 Sat_depth_1				=			0.05 #(m)
 Sat_1			=			SAT_sd1.tif
-Sat_depth_2			=			0.1  #(m)
+Sat_depth_2			=			0.1 #(m)
 Sat_2			=			SAT_sd2.tif
 Sat_depth_3			=			0.15 #(m)
 Sat_3			=			SAT_sd3.tif
@@ -103,11 +103,11 @@ Sat_6			=			SAT_sd6.tif
 ##################################################################################
 # organic matter (%w)
 ################################################################################
-OMType				=		Uniform	
+OMType				=		Distributed #	
 nLayers_OM			=			6
 OM_depth_1			=			0.05 #(m)
 OM_1			=			ORCDRC_sd1.tif
-OM_depth_2			=			0.1  #(m)
+OM_depth_2			=			0.1 #(m)
 OM_2			=			ORCDRC_sd2.tif
 OM_depth_3			=			0.15 #(m)
 OM_3			=			ORCDRC_sd3.tif
@@ -120,11 +120,11 @@ OM_6			=			ORCDRC_sd6.tif
 ##################################################################################
 # bulk density (kg/m^3)
 ################################################################################
-BDType				=		Uniform	
+BDType				=		Distributed #	
 nLayers_BD			=			6
 BD_depth_1				=			0.05 #(m)
 BD_1			=			BLD_sd1.tif
-BD_depth_2			=			0.1  #(m)
+BD_depth_2			=			0.1 #(m)
 BD_2			=			BLD_sd2.tif
 BD_depth_3			=			0.15 #(m)
 BD_3			=			BLD_sd3.tif
@@ -166,7 +166,7 @@ BExt	=	""
 BUseExt	=	No
 B	=	0.25
 ################################################################################	
-IMType	=	Uniform	#
+IMType	=	Distributed	#
 IMUseExt=	No
 IMExt	=	""
 IM	=	IM.tif
@@ -229,4 +229,60 @@ delayExt	=	""
 delay		=	747
 </pre>
 
+- nLayers
 
+Number of soil layers for simulate soil moisture dynamics. Refer to as upper Soil Layer, intermediate Soil Layer, and Lower Soil Layer.
+
+- SoilThermal
+
+The version of the soil thermal module.
+
+- *Type
+
+Uniform or Distributed. For raster input, use Distributed, empirical parameter use Uniform.
+
+- *Ext
+
+Wheter to use special ext for the input file. Use "" if not.
+
+- *UseExt
+
+Wheter to use ext for specify parameter.
+
+## routing parameters
+
+- fExcS
+
+Multiplier to overland(surface) runoff, excS.
+
+- fExcI
+
+Multiplier to interflow runoff, excI.
+
+- coeM
+
+The overland runoff velocity coefficient.
+
+- expM
+
+The overland flow speed exponent.
+
+- coeR
+
+The multiplier used to convert overland flow to channel flow.
+
+- coeI
+
+The multiplier used to convert overland flow to interflow.
+
+- KS
+
+The overland reservoir discharge coefficient.
+
+- KI
+
+The interflow Reservoir discharge coefficient.
+
+## routing parameter setting when running calibration.
+
+Set all routing parameters to 1 for calibration, as the value range specify in the calibration.txt representing the multiplier for each parameter.
