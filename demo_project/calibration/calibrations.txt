@@ -26,12 +26,12 @@ NCalibStations	=	1
 ###############################################################################
 [Station 1 Begin]
 #Varible		Min		Initial		Max
-Name_1		=	J-415
+Name_1		=	Wadi-418
 coeM_1		=	1		56.5315		150
 expM_1		=	0.1		0.5		1
 coeR_1		=	0.1		0.5		1
 coeS_1		=	0.033		1		3.33
 KS_1		=	0.001		0.5		1
 KI_1		= 	0.001		0.5		1
-delay_1	=	0		20		200
+delay_1	=	0		1		3
 [Station 1 End]
