@@ -14,7 +14,7 @@ WU0				=		0
 SS0Type				=		Uniform
 SS0				=		0
 ############################################
-# subsurface water depth (mm)
+# interflow water depth (mm)
 ############################################
 SI0Type				=		Uniform	
 SI0				=		0
