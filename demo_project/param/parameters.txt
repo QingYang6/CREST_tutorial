@@ -32,7 +32,7 @@ EvapSurfWater			=			Yes
 ################################################################################
 # saturated soil conductivity (mm/h)
 ################################################################################
-KsatType		=			Uniform#
+KsatType		=			Distributed #
 nLayers_Ksat			=			6
 Ksat_depth_1			=			0.05 #(m)
 Ksat_1						=		KSAT_sd1.tif
@@ -49,7 +49,7 @@ Ksat_6			=			KSAT_sd6.tif
 ################################################################################
 # field capacity (%v)
 ################################################################################
-FCType			=			Uniform	#
+FCType			=			Distributed #
 nLayers_FC		=			6
 FC_depth_1			=			0.05 #(m)
 FC_1						=		FC_sd1.tif
@@ -66,7 +66,7 @@ FC_6			=			FC_sd6.tif
 #################################################################################
 # Wilting point soil moisture (%)
 #################################################################################	
-WwpType			=			Uniform	#
+WwpType			=			Distributed #
 nLayers_Wwp		=			6
 Wwp_depth_1			=			0.05 #(m)
 Wwp_1						=		Wwp_sd1.tif
@@ -83,7 +83,7 @@ Wwp_6			=			Wwp_sd6.tif
 ################################################################################
 # Saturated(maximal) soil moisture (%)
 ################################################################################	
-SatType				=		Uniform	#
+SatType				=		Distributed #
 nLayers_Sat			=			6
 Sat_depth_1				=			0.05 #(m)
 Sat_1			=			SAT_sd1.tif
@@ -100,7 +100,7 @@ Sat_6			=			SAT_sd6.tif
 ##################################################################################
 # organic matter (%w)
 ################################################################################
-OMType				=		Uniform	
+OMType				=		Distributed #	
 nLayers_OM			=			6
 OM_depth_1			=			0.05 #(m)
 OM_1			=			ORCDRC_sd1.tif
@@ -117,7 +117,7 @@ OM_6			=			ORCDRC_sd6.tif
 ##################################################################################
 # bulk density (kg/m^3)
 ################################################################################
-BDType				=		Uniform	
+BDType				=		Distributed #	
 nLayers_BD			=			6
 BD_depth_1				=			0.05 #(m)
 BD_1			=			BLD_sd1.tif
@@ -163,7 +163,7 @@ BExt	=	""
 BUseExt	=	No
 B	=	0.25
 ################################################################################	
-IMType	=	Uniform	#
+IMType	=	Distributed #
 IMUseExt=	No
 IMExt	=	""
 IM	=	IM.tif
