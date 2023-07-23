@@ -30,6 +30,8 @@ Control files for the CREST project:
 
 [`parameters file`](./control_file_template/parameters_file.md)
 
+['InitialConditions file'](./control_file_template/InitialConditions_file.md)
+
 ## Lesson 4: Run CREST and calibration
 
 In WeMET, on development...
