@@ -107,7 +107,7 @@ DateOffset		=	000000000000
 DecompBeforeSrc	=	"gunzip -c "
 DecompBeforeDst =	">"
 OS		=	"linux"
-<pre>
+</pre>
 
 ## Time setting
 
