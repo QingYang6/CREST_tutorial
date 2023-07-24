@@ -47,36 +47,36 @@ DEMExt		=	""       # external DEM file name
 FDRExt		=	""  # external FDR file name
 FACExt		=	""  # external FAC file name
 streamExt	=	""  # external stream file name
-BasicPathInt	=	"/mnt/beegfs/hydro/CREST_demo/CREST_tutorial/demo_project/basic/" #"/shared/manoslab/CT_RT_Fore/substations/01/" # directory of the internal geographic files
+BasicPathInt	=	"/mnt/training/crest/qing/CREST_tutorial/demo_project/basic/" #"/shared/manoslab/CT_RT_Fore/substations/01/" # directory of the internal geographic files
 ###############################################################################
-ParamFile	=	"/mnt/beegfs/hydro/CREST_demo/CREST_tutorial/demo_project/param/parameters.txt" # Soil and routing parameter file
+ParamFile	=	"/mnt/training/crest/qing/CREST_tutorial/demo_project/param/parameters.txt" # Soil and routing parameter file
 ###############################################################################
-StatePath	=	"/mnt/beegfs/hydro/CREST_demo/CREST_tutorial/demo_project/status/" #???? this is a scratch folder
+StatePath	=	"/mnt/training/crest/qing/CREST_tutorial/demo_project/status/" #???? this is a scratch folder
 ###############################################################################
-ICSPath		=	"/mnt/beegfs/hydro/CREST_demo/CREST_tutorial/demo_project/ICS/"
+ICSPath		=	"/mnt/training/crest/qing/CREST_tutorial/demo_project/ICS/"
 ###############################################################################
-ForcingFile	=	"/mnt/beegfs/hydro/CREST_demo/CREST_tutorial/demo_project/ERA5_forcing_control.txt"
+ForcingFile	=	"/mnt/training/crest/qing/CREST_tutorial/demo_project/ERA5_forcing_control.txt"
 ###########################################################################
-ResultInitLoc	=	"/mnt/beegfs/hydro/CREST_demo/CREST_tutorial/demo_project/Temp/Temp_Land/" # local directory on the compute node to store intermediate files
-ResultInit	=	"/mnt/beegfs/hydro/CREST_demo/CREST_tutorial/demo_project/result/result_ImportForc/" # Intermediate results after ImportForc
-ResultMosaic	=	"/mnt/beegfs/hydro/CREST_demo/CREST_tutorial/demo_project/result/result_Mosaic/"# Mosaic land surface result to the extent of basin
-ResultAgger	=	"/mnt/beegfs/hydro/CREST_demo/CREST_tutorial/demo_project/result/result_LandSurf/" #Intermediate results after LandSurf, stored as vectorized data.
-ResultVal	=	"/mnt/beegfs/hydro/CREST_demo/CREST_tutorial/demo_project/result/ET_Val/" #ET result storage
-ResultEx	=	"/mnt/beegfs/hydro/CREST_demo/CREST_tutorial/demo_project/output/" #model output folder
-ResultMasks	=	"/mnt/beegfs/hydro/CREST_demo/CREST_tutorial/demo_project/result/NodeMasks/" #Nodemask for parallelism, intermediate
-ResultChkPts    =       "/mnt/beegfs/hydro/CREST_demo/CREST_tutorial/demo_project/result/CheckPoints/" #land surface checkpoint, intermediate
+ResultInitLoc	=	"/mnt/training/crest/qing/CREST_tutorial/demo_project/Temp/Temp_Land/" # local directory on the compute node to store intermediate files
+ResultInit	=	"/mnt/training/crest/qing/CREST_tutorial/demo_project/result/result_ImportForc/" # Intermediate results after ImportForc
+ResultMosaic	=	"/mnt/training/crest/qing/CREST_tutorial/demo_project/result/result_Mosaic/"# Mosaic land surface result to the extent of basin
+ResultAgger	=	"/mnt/training/crest/qing/CREST_tutorial/demo_project/result/result_LandSurf/" #Intermediate results after LandSurf, stored as vectorized data.
+ResultVal	=	"/mnt/training/crest/qing/CREST_tutorial/demo_project/result/ET_Val/" #ET result storage
+ResultEx	=	"/mnt/training/crest/qing/CREST_tutorial/demo_project/output/" #model output folder
+ResultMasks	=	"/mnt/training/crest/qing/CREST_tutorial/demo_project/result/NodeMasks/" #Nodemask for parallelism, intermediate
+ResultChkPts    =       "/mnt/training/crest/qing/CREST_tutorial/demo_project/result/CheckPoints/" #land surface checkpoint, intermediate
 ###############################################################################
 CalibFormat	=	.txt
-CalibPath	=	"/mnt/beegfs/hydro/CREST_demo/CREST_tutorial/demo_project/calibration/"
+CalibPath	=	"/mnt/training/crest/qing/CREST_tutorial/demo_project/calibration/"
 CalibMode	=	Parallel # Sequential
 ###############################################################################
 OBSDateFormat	=	yyyymmddHHMM
-OBSPath		=	"/mnt/beegfs/hydro/CREST_demo/CREST_tutorial/demo_project/outlet_obs/" #????
+OBSPath		=	"/mnt/training/crest/qing/CREST_tutorial/demo_project/outlet_obs/" #????
 OBSNoDataValue	=	-9999
 ###############################################################################
 #Outlet Information
 ###############################################################################
-HasOutlet	=	No
+HasOutlet	=	Yes
 OutletName	=	Wadi_418
 SitesShpFile	=	Wadi_418.shp #file name
 DBFEName	=	"#"
