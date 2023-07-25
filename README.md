@@ -36,7 +36,13 @@ Control files for the CREST project:
 
 ## Lesson 4: Run CREST and calibration
 
-In WeMET, on development...
+After conducting the routing step, we can move forward to calibration.
+
+Submit the [`demo_cali.sh`](./demo_project/demo_cali.sh) through server terminal.
+
+Result visualize and parameter sensitivity analysis:
+
+[`Result_visualize.ipynb`](./Result_visualize.ipynb)
 
 ### CREST manual
 [`CREST v3`](./manual/CREST_User_Manual_v3.pdf)
