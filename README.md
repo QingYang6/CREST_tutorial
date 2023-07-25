@@ -42,7 +42,7 @@ Submit the [`demo_cali.sh`](./demo_project/demo_cali.sh) through server terminal
 
 Result visualize and parameter sensitivity analysis:
 
-[`Result_visualize.ipynb`](./Result_visualize.ipynb)
+[`Hydrograph_visualizer.ipynb`](./Hydrograph_visualizer.ipynb)
 
 ### CREST manual
 [`CREST v3`](./manual/CREST_User_Manual_v3.pdf)
