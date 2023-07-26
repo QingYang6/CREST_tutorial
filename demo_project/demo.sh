@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH -p postproc*# cluster
+#SBATCH -p postproc# cluster
 #SBATCH --ntasks=3 
 #SBATCH --cpus-per-task=1
 #SBATCH --time=0-01:00:00
