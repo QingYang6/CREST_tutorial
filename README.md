@@ -44,6 +44,12 @@ Result visualize and parameter sensitivity analysis:
 
 [`Hydrograph_visualizer.ipynb`](./Hydrograph_visualizer.ipynb)
 
+## Lesson 5: Visualize through Web
+
+Template of building a website for CREST output:
+
+[`CREST_Web_cookbook`](./Flood_quantile_web.ipynb)
+
 ### CREST manual
 [`CREST v3`](./manual/CREST_User_Manual_v3.pdf)
 [`CREST v2.1.3`](./manual/CREST_User_Manual_v2_1_3.pdf)
