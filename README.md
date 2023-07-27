@@ -50,6 +50,8 @@ Template of building a website for CREST output:
 
 [`CREST_Web_cookbook`](./Flood_quantile_web.ipynb)
 
+[CREST_Web_Test](./demo_project/test_crest_out.html)
+
 ### CREST manual
 [`CREST v3`](./manual/CREST_User_Manual_v3.pdf)
 [`CREST v2.1.3`](./manual/CREST_User_Manual_v2_1_3.pdf)
