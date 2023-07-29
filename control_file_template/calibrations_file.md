@@ -1,4 +1,4 @@
-## ./param/parameters.txt
+## ./calibration/calibrations.txt
 A typical setting is as follows:
 <pre>
 ###############################################################################
