@@ -1,4 +1,4 @@
-## ./param/parameters.txt
+## ./ICS/InitialConditions.txt
 A typical setting is as follows:
 <pre>
 ############################################
