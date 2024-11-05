@@ -55,3 +55,7 @@ Template of building a website for CREST output:
 ### CREST manual
 [`CREST v3`](./manual/CREST_User_Manual_v3.pdf)
 [`CREST v2.1.3`](./manual/CREST_User_Manual_v2_1_3.pdf)
+
+
+## Course 11/05/2024
+[`Course 1: Framework of operational flash flood forecast system: NCM CREST`](./Course1_Framework_of_operational_flash_floodforecast_system_NCM_CREST.pdf)
