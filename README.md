@@ -59,3 +59,6 @@ Template of building a website for CREST output:
 
 ## Course 11/05/2024
 [`Course 1: Framework of operational flash flood forecast system: NCM CREST`](./Course1_Framework_of_operational_flash_floodforecast_system_NCM_CREST.pdf)
+
+## Course 11/11/2024
+[`Course 1: Building CREST model: hydro-fabric, forcing, and settings`](./Course_2_Building_CREST_model_hydro-fabric_forcing_and_settings.pdf)
