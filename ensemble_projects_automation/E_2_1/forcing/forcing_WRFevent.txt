@@ -1,0 +1,128 @@
+################################################################################
+# CREST Forcing Control File
+# Version	=	3.0
+###############################################################################
+# forcing options
+###############################################################################
+forceImport	=	No
+TAIRType	=	MEAN #MINMAX
+MinTRain	=	0
+MaxTSnow	=	0
+HumidityType	=	RH #RH
+WindType	=	UV #Total
+ref_Height	=	10 #(m) wind speed reference height
+FileDateFormat  =       yyyymmddHH # this is a daily file
+forcPathLoc	=	"/g/model/hydro/hydrowork/CREST_work/dummy_projects/OP_ensemble/E_2_1/Temp/Temp_forcing/"
+Interpolation   =       2   #1=NearestNeighbour, 2=BilinearInterpolation
+###############################################################################
+## total precipitation (mm/timeMark)
+###############################################################################
+PrecFormat	=	.tif
+PrecDateFormat	=	yyyymmddHH
+PrecDateConv	=	End
+PrecDateInterval=	0000000001
+PrecPathExt	=	"/g/model/hydro/hydrowork/CREST_work/dummy_projects/Ensemble_WRF/m3/2024111100UTC/Precip/WRF_"
+PrecBand	=	1
+Prec_LT		=	1 #kg/m^2=mm.
+Prec_ULim       =       1e5    # physical upper limit
+Prec_LLim       =       0       # physical lower lmit 
+PrecPathInt	=	"/g/model/hydro/hydrowork/CREST_work/dummy_projects/OP_ensemble/E_2_1/forcing/prec/prec."
+###############################################################################
+## shortwave radiation (W/m^2)
+###############################################################################
+SWFormat	=	.tm00
+SWDateFormat	=	yyyymmddHH
+SWDateConv	=	End
+SWDateInterval	=	0000000001
+SWPathExt	=	"/g/model/hydro/hydrowork/CREST_work/dummy_projects/Ensemble_WRF/m3/2024111100UTC/Forcing/WRF_"   
+SWBand		=	7
+SW_LT		=	1
+SW_ULim		=	1e10	# physical upper limit
+SW_LLim		=	0	# physical lower limit
+SWPathInt	=	"/g/model/hydro/hydrowork/CREST_work/dummy_projects/OP_ensemble/E_2_1/forcing/shortwave/SW."
+###############################################################################
+LWFormat	=	.tm00
+LWDateFormat	=	yyyymmddHH
+LWDateConv	=	End
+LWDateInterval	=	0000000001
+LWPathExt	=	"/g/model/hydro/hydrowork/CREST_work/dummy_projects/Ensemble_WRF/m3/2024111100UTC/Forcing/WRF_"   
+LWBand		=	8
+LW_LT		=	1
+LW_ULim         =       1e10    # physical upper limit
+LW_LLim         =       0       # physical lower limit
+LWPathInt	=	"/g/model/hydro/hydrowork/CREST_work/dummy_projects/OP_ensemble/E_2_1/forcing/longwave/LW."
+###############################################################################
+## Air Temperature (^oC)
+###############################################################################
+TAIRFormat	=	.tm00
+TAIRDateFormat	=	yyyymmddHH
+TAIRDateConv	=	End
+TAIRDateInterval=	0000000001
+TAIRPathExt	=	"/g/model/hydro/hydrowork/CREST_work/dummy_projects/Ensemble_WRF/m3/2024111100UTC/Forcing/WRF_"   
+TAIRBand	=	2
+TAIR_LT		=	1
+TAIR_ULim       =      100    # physical upper limit
+TAIR_LLim       =       -273.15       # physical lower limit
+TAIRPathInt     =       "/g/model/hydro/hydrowork/CREST_work/dummy_projects/OP_ensemble/E_2_1/forcing/TAIR/TAIR."
+###############################################################################
+## Humidity SH(kg/kg), RH(%)
+###############################################################################
+HUFormat	=	.tm00
+HUDateFormat	=	yyyymmddHH
+HUDateConv	=	End
+HUDateInterval	=	0000000001
+HUPathExt	=	"/g/model/hydro/hydrowork/CREST_work/dummy_projects/Ensemble_WRF/m3/2024111100UTC/Forcing/WRF_"  
+HUBand		=	3
+HU_LT		=	100
+HU_ULim         =       1    # physical upper limit
+HU_LLim         =       0       # physical lower limit
+HUPathInt	=	"/g/model/hydro/hydrowork/CREST_work/dummy_projects/OP_ensemble/E_2_1/forcing/HU/HU."
+###############################################################################
+## Pressure (Pa)
+###############################################################################
+PRESFormat	=	.tm00
+PRESDateFormat	=	yyyymmddHH
+PRESDateConv	=	End
+PRESDateInterval=	0000000001
+PRESPathExt	=	"/g/model/hydro/hydrowork/CREST_work/dummy_projects/Ensemble_WRF/m3/2024111100UTC/Forcing/WRF_"   
+PRESBand	=	1
+PRES_LT		=	1
+PRES_ULim	=       2e6    # physical upper limit
+PRES_LLim	=       0      # physical lower lmit
+PRESPathInt	=	"/g/model/hydro/hydrowork/CREST_work/dummy_projects/OP_ensemble/E_2_1/forcing/PRES/PRES."
+###############################################################################
+## Wind ()
+###############################################################################
+WIND_UFormat	=	.tm00
+WIND_UDateFormat=	yyyymmddHH
+WIND_UDateConv	=	End
+WIND_UDateInterval=	0000000001
+WIND_UPathExt	=	"/g/model/hydro/hydrowork/CREST_work/dummy_projects/Ensemble_WRF/m3/2024111100UTC/Forcing/WRF_"  
+WIND_UBand	=	4
+WIND_U_LT	=	1
+WIND_U_ULim     =       200    # physical upper limit
+WIND_U_LLim	=       -200       # physical lower limit
+WIND_UPathInt	=	"/g/model/hydro/hydrowork/CREST_work/dummy_projects/OP_ensemble/E_2_1/forcing/WINDU/windu."
+###############################################################################
+WIND_VFormat	=	.tm00
+WIND_VDateFormat=	yyyymmddHH
+WIND_VDateConv	=	End
+WIND_VDateInterval=	0000000001
+WIND_VPathExt	=	"/g/model/hydro/hydrowork/CREST_work/dummy_projects/Ensemble_WRF/m3/2024111100UTC/Forcing/WRF_"   
+WIND_VBand	=	5
+WIND_V_LT	=	1
+WIND_V_ULim     =	200    # physical upper limit
+WIND_V_LLim     =       -200   # physical lower limit
+WIND_VPathInt	=	"/g/model/hydro/hydrowork/CREST_work/dummy_projects/OP_ensemble/E_2_1/forcing/WINDV/windv."
+###############################################################################
+LAIFormat       =       _mosaic.tif
+LAIDateFormat   =       yyyy/DOY
+LAIDateConv     =       Center
+LAIDateInterval =       0000/008
+LAIPathExt      =       "/g/model/hydro/hydrowork/CREST_work/Forcing/LAI/Mosaic/"
+LAIBand         =       1
+LAI_LT          =       10 # LAI data has a 10 scaling factor and 255 is water body: http://glass-product.bnu.edu.cn/en/d/file/wendangziliao/suanfawendang/2014-03-13/GLASS%20LAI%E4%BA%A7%E5%93%81%E7%94%A8%E6%88%B7%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C_v1.1.pdf
+LAI_ULim        =       20    # physical upper limit
+LAI_LLim        =       0     # physical lower limit
+LAIPathInt	=	"/g/model/hydro/hydrowork/CREST_work/dummy_projects/OP_ensemble/E_2_1/forcing/LAI/lai."
+
