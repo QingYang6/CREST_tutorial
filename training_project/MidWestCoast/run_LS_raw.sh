@@ -1,6 +1,6 @@
 #!/bin/bash
 #SBATCH -p matlab # cluster
-#SBATCH --tasks=2 --cpus-per-task=1
+#SBATCH --tasks=3 --cpus-per-task=1
 #SBATCH --mem=32g
 #SBATCH --time=0-02:00:00
 #SBATCH --nodelist=ncmcn620
