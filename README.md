@@ -65,3 +65,6 @@ Template of building a website for CREST output:
 
 ## Course 11/12/2024
 [`Course 3: Operational CREST workflow and model runtime setting`](./Course_3_Operational_CREST_workflow_and_model_runtime_setting.pdf)
+
+## Course 11/19/2024
+[`Course 4: Hands-on exercises: hydro fabric preparation and HPC`](./Course_4_Hands-on_exercises_hydro_fabric_preparation_and_HPC.pdf)
