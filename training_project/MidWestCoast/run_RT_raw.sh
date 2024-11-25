@@ -1,8 +1,8 @@
 #!/bin/bash
 #SBATCH -p matlab # cluster
 #SBATCH --tasks=1 --cpus-per-task=1
-#SBATCH --mem=8g
-#SBATCH --time=0-02:00:00
+#SBATCH --mem=12g
+#SBATCH --time=0-03:00:00
 #SBATCH --nodelist=ncmcn620
 
 # Clean-up the directories
