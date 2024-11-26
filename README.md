@@ -68,3 +68,6 @@ Template of building a website for CREST output:
 
 ## Course 11/19/2024
 [`Course 4: Hands-on exercises: hydro fabric preparation and HPC`](./Course_4_Hands-on_exercises_hydro_fabric_preparation_and_HPC.pdf)
+
+## Course 11/26/2024
+[`Course 5: CREST simulation land surface and routing, HPC Q&A`](./Course_5_CREST_simulation_land_surface_and_routing_HPC_Q&A.pdf)
